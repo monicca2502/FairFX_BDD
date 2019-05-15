@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Travelcash currency validation",
+        "description": "",
+        "id": "travelcash-validation;travelcash-currency-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36772640300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the Travelcash page",
+            "match": {
+              "location": "TravelcashStep.user_is_on_the_Travelcash_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4727101000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "currency is selected",
+            "match": {
+              "location": "TravelcashStep.currency_is_selected(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Currency",
+                  "value"
+                ],
+                "line": 24
+              },
+              {
+                "cells": [
+                  "$ Hong Kong Dollar",
+                  "10000"
+                ],
+                "line": 25
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147702600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "clicks on Order now for Travelcash",
+            "match": {
+              "location": "TravelcashStep.clicks_on_Order_now_for_Travelcash()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5955158500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "order Travelcash page is displayed",
+            "match": {
+              "location": "TravelcashStep.order_Travelcash_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@TCTest"
+          }
+        ]
+      }
+    ],
+    "name": "Travelcash validation",
+    "description": "",
+    "id": "travelcash-validation",
+    "keyword": "Feature",
+    "uri": "Travelcash.feature"
+  }
+]
