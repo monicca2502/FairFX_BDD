@@ -22,7 +22,7 @@ Scenario: Travelcash currency validation
 	Given  User is on the Travelcash page 
 	When  currency is selected 				
 		|	Currency				|	value	|
-		|    $ Hong Kong Dollar    	|	10000	|
+		|    $ Hong Kong Dollar    	|	20000	|
 			
 	And clicks on Order now for Travelcash 
 	Then order Travelcash page is displayed 
