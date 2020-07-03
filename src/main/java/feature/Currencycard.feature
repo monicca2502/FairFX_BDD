@@ -15,13 +15,13 @@ Scenario: Dollar card amount page validation
 	And User clicks on order now button 
 	Then amount page is displayed 
 	
-@RegressionTest 
-Scenario: Euro card amount page validation 
-
-	Given User is on the Currency card page 
-	When User clicks on Euro Card 
-	And User clicks on order now button 
-	Then amount page is displayed 
+#@RegressionTest 
+#Scenario: Euro card amount page validation 
+#
+#	Given User is on the Currency card page 
+#	When User clicks on Euro Card 
+#	And User clicks on order now button 
+#	Then amount page is displayed 
 	
 @RegressionTest 
 Scenario: SignIn page validation from Euro card 
