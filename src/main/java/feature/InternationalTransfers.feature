@@ -9,15 +9,15 @@ Then User is displayed with InternationalTransfers page
 @RegressionTest
 Scenario: Amount page validation from Transfers now
 
-Given User is on InternationalTransfers page
-When User clicks on Transfers now button
+Given User is on InternationalTransfers page 
+When User clicks on Transfers green button
 Then User is displayed with Amount page
 
 @RegressionTest
 Scenario: Amount page validation from Buy now
 
 Given User is on InternationalTransfers page
-When User clicks on Buy now green button
+When User clicks on Buy now orange button
 Then User is displayed with Amount page
 
 #@RegressionTest
