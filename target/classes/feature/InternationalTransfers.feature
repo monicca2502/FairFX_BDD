@@ -17,17 +17,17 @@ Then User is displayed with Amount page
 Scenario: Amount page validation from Buy now
 
 Given User is on InternationalTransfers page
-When User clicks on Buy now button
+When User clicks on Buy now green button
 Then User is displayed with Amount page
 
-@RegressionTest
-Scenario: SignIn page validation from Amount page
-
-Given User is on Amount page
-When User enters amount
-And User clicks on continue button
-Then User is displayed with SignIn page for international Transfers
-
-
+#@RegressionTest
+#Scenario: SignIn page validation from Amount page
+#
+#Given User is on Amount page
+#When User enters amount
+#And User clicks on continue button
+#Then User is displayed with SignIn page for international Transfers
+#
+#
 
 
